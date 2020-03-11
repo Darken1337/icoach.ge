@@ -10,12 +10,12 @@
   <link rel="stylesheet" href="/static/css/main.css">
   <link rel="stylesheet" href="/static/css/common.css">
   <title>ICOACH LLC</title>
-  {% include facebook-pixel.html %}
 </head>
 
 <body>
+  {% translate_file header.html %}
   {{ content }}
-  {% include footer.html %}
+  {% translate_file footer.html %}
   <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script src="/static/libs/lazy-load.min.js"></script>
